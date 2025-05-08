@@ -52,7 +52,7 @@ public class VL {
                         resultadoLabel.setText(" Valor no encontrado.");
                     }
                 } catch (NumberFormatException ex) {
-                    resultadoLabel.setText("⚠️ Ingresa un número válido.");
+                    resultadoLabel.setText(" Ingresa un número válido.");
                 }
             }
         });
