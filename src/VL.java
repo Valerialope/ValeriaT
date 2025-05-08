@@ -47,9 +47,9 @@ public class VL {
                     int resultado = buscador.buscar(datos, valor);
 
                     if (resultado != -1) {
-                        resultadoLabel.setText("✅ Valor encontrado en la posición: " + resultado);
+                        resultadoLabel.setText(" Valor encontrado en la posición: " + resultado);
                     } else {
-                        resultadoLabel.setText("❌ Valor no encontrado.");
+                        resultadoLabel.setText(" Valor no encontrado.");
                     }
                 } catch (NumberFormatException ex) {
                     resultadoLabel.setText("⚠️ Ingresa un número válido.");
